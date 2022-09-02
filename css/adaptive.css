@@ -1,0 +1,252 @@
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 479.98px) {}
+
+
+/*======================  Адаптив  ===========================*/
+
+
+/*==================  header / main =========================== */
+
+@media (max-width: 1199.98px) {
+  .main-block__container {
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+
+  .content-main-block__body {
+    padding-right: 0;
+  }
+
+  .body-main-block {
+    display: block;
+  }
+
+  .form-main-block {
+    margin-right: 0;
+  }
+
+  .body-main-block__content {
+    margin-bottom: 40px;
+  }
+
+  .main-block__body {
+    margin-bottom: 40px;
+  }
+
+  .partners-main-block {
+    position: relative;
+    z-index: 2;
+    max-width: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .partners-main-block__items {
+    justify-content: center;
+  }
+
+  .content-main-block__title {
+    font-size: 30px;
+    line-height: 120%;
+  }
+
+  .form-main-block {
+    display: block;
+  }
+
+  .form-main-block__button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .form-main-block {
+    background: #fff;
+    padding: 0 15px;
+  }
+}
+
+
+/*===========================================================*/
+
+
+/*==================  page__how  ============================*/
+
+@media (max-width: 1199.98px) {
+  .item-how:not(:last-child)::after {
+    width: 170px;
+    transform: translate(69%, 0);
+  }
+
+  .item-how_2:not(:last-child)::after {
+    transform: translate(69%, 0) rotate(-180deg);
+  }
+}
+
+@media (max-width: 991px) {
+  .how__items {
+    padding: 0 35px;
+  }
+}
+
+@media (max-width: 990.98px) {
+  .item-how:not(:last-child)::after {
+    width: 120px;
+    transform: translate(63%, 0);
+  }
+
+  .item-how_2:not(:last-child)::after {
+    transform: translate(63%, 0) rotate(-180deg);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .item-how:not(:last-child)::after {
+    display: none;
+  }
+}
+
+
+/*============================================================*/
+
+/* =================  page__featured featured  ==================== */
+@media (max-width: 991.98px) {
+  .featured {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .featured__body {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .featured__title {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .featured {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .featured__body {
+    margin: 0 -15px;
+    padding: 20px 15px 20px 15px;
+  }
+
+  .featured__title {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .content-featured__title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 991px) {
+  .content-featured__body {
+    max-width: 412px;
+    flex: 1 1 auto;
+    padding-top: 40px;
+  }
+
+  .content-featured__link {
+    max-width: 412px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .content-featured__option {
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 35px;
+  }
+}
+
+/* ------------  page__reviews reviews  ----------- */
+@media (max-width: 991.98px) {
+  .reviews {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .reviews {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+/* --------------------- */
+@media (max-width: 991.98px) {
+  .footer-reviews {
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+}
+
+/* ==========  page__subscribe subscribe  ============ */
+@media (max-width: 991.98px) {
+  .subscribe {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .subscribe {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .subscribe__title {
+    font-size: 35px;
+  }
+
+  .subscribe__sub-title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .subscribe__title {
+    font-size: 24px;
+  }
+
+  .subscribe__sub-title {
+    font-size: 16px;
+  }
+
+  .form-subscribe {
+    margin: 0 -15px;
+    padding: 15px;
+    flex-direction: column;
+  }
+}
+
+/* --------------  footer  ------------- */
+@media (max-width: 767.98px) {
+  .footer__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 30px;
+  }
+}
+
+@media (min-width: 767.98px) {
+  .footer__copy {
+    grid-column: span 2;
+  }
+}
